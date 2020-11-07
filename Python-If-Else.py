@@ -10,24 +10,23 @@ import os
 import random
 import re
 import sys
-if 
-if _name__ == '__main__':
-    N = int(input())
 
-def function():
-    if N % 2 == 1:
-        print('Weird')
+N = int(input())
+
+
+if N % 2 == 1:
+    print('Weird')
     
-    x = range(2,6)
-    if (N % 2 == 0) and (N in X):
-        print('Not Weird')
+x = range(2,6)
+if (N % 2 == 0) and (N in x):
+    print('Not Weird')
         
-    Y = range(6,21)
-    if (N  % 2 == 0) and (N in Y):
-        print('Weird)
+Y = range(6,21)
+if (N  % 2 == 0) and (N in Y):
+    print('Weird')
               
-    if (N % 2 == 0) and N > 20:
-        print('Not Weird')
+if (N % 2 == 0) and N > 20:
+    print('Not Weird')
         
     
 
