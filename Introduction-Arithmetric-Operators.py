@@ -4,14 +4,14 @@
 # 2. The second line contains the difference of the two numbers (first - second).
 # 3. The third line contains the product of the two numbers.
 
-a = random(range(1, 10**10))
-b = random(range(1, 10**10))
+a = int(input())
+b = int(input())
 
 addition = a + b
-print(addition'\n')
+print(addition)
 
 subtraction = a - b
-print(subtraction'\n')
+print(subtraction)
 
 multiplication = a * b
 print(multiplication)
