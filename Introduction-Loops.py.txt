@@ -1,8 +1,9 @@
 # Task
 # The provided code stub reads and integer, n, from STDIN. For all non-negative integers i<n, print i squared.
 
-import random
-n = randint(1,21)
+
+n = int(input())
+i = 1
 
 while i < n:
 	squared = i**2
