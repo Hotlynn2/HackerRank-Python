@@ -1,6 +1,12 @@
 # Task
 # The provided code stub reads and integer, n, from STDIN. For all non-negative integers i<n, print i squared.
 
-n = randrange(1,21))
+import random
+n = randint(1,21)
+
+while i < n:
+	squared = i**2
+	print(squared)
+	i + 1
 
 
