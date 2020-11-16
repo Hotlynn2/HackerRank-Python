@@ -6,6 +6,6 @@ n = int(input())
 i = 1
 
 while (i < n):
-    i + 1
     squared = i**2
     print(squared)
+    i = i + 1
