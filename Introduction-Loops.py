@@ -3,7 +3,7 @@
 
 
 n = int(input())
-i = 1
+i = 0
 
 while (i < n):
     squared = i**2
