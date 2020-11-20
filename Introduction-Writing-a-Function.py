@@ -14,3 +14,13 @@ In the Gregorian calendar, three conditions are used to identify leap years:
 #return the Boolean True, otherwise return False.
 # Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only 
 #necessary to complete the is_leap function
+
+def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    
+    return leap
+
+year = int(raw_input())
+print is_leap(year)
