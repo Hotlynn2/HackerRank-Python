@@ -18,7 +18,7 @@ In the Gregorian calendar, three conditions are used to identify leap years:
 def is_leap(year):
     leap = False
     
-    if (year%100 == 0) & (year%400 != 0): 
+    if (year%100 == 0) & (year%400 != 0) & (year%4 != 0): 
 	
     return leap
 
