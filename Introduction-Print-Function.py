@@ -11,6 +11,9 @@ Print the string 12345.
 if __name__ == '__main__':
     n = int(input())
     
-    while n >= 0:
-        print(n)
-        n = n - 1
+    start = 1
+    
+    while start <= n:
+        print(start, end = '')
+        start = start + 1
+        
