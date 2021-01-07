@@ -1,16 +1,9 @@
 if __name__ == '__main__':
     n = int(input())
-    #arr = map(int, input().split())
-
-    from random import seed
-    from random import randint
-
-    # seed random number generator
-    seed(1)
-
-    n = int(input())
-
-    # generate some integers
-    for _ in range(n):
-        value = randint(-100, 100)
-	print(value)
+    arr = map(int, input().split())
+    
+    highest_number = max(arr)
+    print(highest_number)
+    
+    highest_number_count = arr.count(highest_number)
+    print(highest_number_count)
