@@ -7,3 +7,7 @@ if __name__ == '__main__':
     
     highest_number_count = arr.count(highest_number)
     print(highest_number_count)
+
+    for i in highest_number_count:
+        arr.remove(highest_number)
+    print(arr)
