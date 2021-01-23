@@ -11,3 +11,8 @@ students, order their names alphabetically and print each one on a new line.
 Sample Input 0
 5
 Harry
+
+There will always be one or more students having the second lowest grade.
+Output Format
+
+Print the name(s) of any student(s) having the second lowest grade in. If there are multiple students, order their names alphabetically and print each one on a new line.
