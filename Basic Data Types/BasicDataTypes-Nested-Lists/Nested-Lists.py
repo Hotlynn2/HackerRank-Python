@@ -7,3 +7,8 @@ if __name__ == '__main__':
         score = float(input()) 
         marksheet = marksheet + [[name, score]]
         score = score + [score] 
+        x = sorted(set(scoresheet))[1]
+
+    for n,s in sorted(markssheet)[1]:
+        if s==x:
+            print(n)
