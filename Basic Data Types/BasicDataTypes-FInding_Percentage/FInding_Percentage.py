@@ -11,6 +11,10 @@ if __name__ == '__main__':
         student_name.append(score_data[0])
         student_score.append(score_data[1:])
 
+        dfgsdgdgdsgdgdgdgsgds
+        fdsfasdfdsafsafasfafsaf
+        'fgsdfgdsggggggggggggggggggggg
+
     if (query_name in student_name) and (student_score.index == student_name.index):
         average = student_score.mean()
     print(average)
