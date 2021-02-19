@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     query_name = input()
 
-    student_names = student_name.split(,)
+    student_names = student_name.split()
     for name in student_names:
         if (name == query_name) and (name.index() == student_score.index()):
             sum(student_score[name.index()]) / 3
