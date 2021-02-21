@@ -25,6 +25,9 @@ if __name__ == '__main__':
     
     query_name = input()
 
+     print(student_name)
+    print(student_score)
+
     student_names = student_name.split()
     for name in student_names:
         if (name == query_name) and (name.index() == student_score.index()):
