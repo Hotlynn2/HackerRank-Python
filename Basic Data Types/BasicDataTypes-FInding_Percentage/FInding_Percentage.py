@@ -23,17 +23,7 @@ if __name__ == '__main__':
     print(student_score)
 
     
-    query_name = input()
-
-     print(student_name)
-    print(student_score)
-
-    print(student_name)
-    print(student_score)
-
     
-    query_name = input()
-
      print(student_name)
     print(student_score)
 
