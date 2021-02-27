@@ -28,6 +28,13 @@ if __name__ == '__main__':
 
             name.index() == student_score.index()):
             sum(student_score[name.index()]) / 3
+
+    (name.index() == student_score.index()):
+            sum(student_score[name.index()]) / 3
+
+
+            name.index() == student_score.index()):
+            sum(student_score[name.index()]) / 3
     
     #if (query_name in student_name) and (student_score.index == student_name.index):
     #    average = student_score.mean()
