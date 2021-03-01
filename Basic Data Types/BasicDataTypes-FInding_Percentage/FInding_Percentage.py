@@ -23,23 +23,25 @@ if __name__ == '__main__':
     print(student_score)
 
 
+
+
     
-    #if (query_name in student_name) and (student_score.index == student_name.index):
-    #    average = student_score.mean()
-    #print(average)
+    if (query_name in student_name) and (student_score.index == student_name.index):
+        average = student_score.mean()
+    print(average)
     
-     #if (query_name in student_name) and (student_score.index == student_name.index):
-    #    average = student_score.mean()
-    #print(average)
-    #if (query_name in student_name) and (student_score.index == student_name.index):
-    #    average = student_score.mean()
-    #print(average)
+    if (query_name in student_name) and (student_score.index == student_name.index):
+        average = student_score.mean()
+    print(average)
+    if (query_name in student_name) and (student_score.index == student_name.index):
+        average = student_score.mean()
+    print(average)
     
     
     
 
-        #name, *line = input().split()
-        #scores = list(map(float, line))
-        #student_marks[name] = scores
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
 
-    #query_name = input()
+    query_name = input()
