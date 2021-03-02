@@ -29,6 +29,16 @@ if __name__ == '__main__':
     if (query_name in student_name) and (student_score.index == student_name.index):
         average = student_score.mean()
     print(average)
+
+    student_names = student_name.split()
+    for name in student_names:
+        if (name == query_name) and (name.index() == student_score.index()):
+            sum(student_score[name.index()]) / 3
+
+            student_names = student_name.split()
+    for name in student_names:
+        if (name == query_name) and (name.index() == student_score.index()):
+            sum(student_score[name.index()]) / 3
     
     if (query_name in student_name) and (student_score.index == student_name.index):
         average = student_score.mean()
@@ -55,4 +65,4 @@ if __name__ == '__main__':
         scores = list(map(float, line))
         student_marks[name] = scores
 
-    query_name = input()'''
+    query_name = input()'''d
