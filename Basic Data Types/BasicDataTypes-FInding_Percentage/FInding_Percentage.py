@@ -13,13 +13,14 @@ if __name__ == '__main__':
 
     query_name = input()
 
-    man = dict(zip(student_name, student_score))  
-    print(man)     
+    students = dict(zip(student_name, student_score))  
+    print(students)     
 
     #student_names = student_name.split()
-    for key,value in iterstudent_name:
-            if (name == query_name) and (student_name.index(name) == student_score.index(student_name):
-                sum(student_score[name.index()]) / 3
+    for name,score in students.items():
+            if (name == query_name):
+                return sum(vslur) / 3
+
         
 
     print(student_name)
