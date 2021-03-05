@@ -13,58 +13,17 @@ if __name__ == '__main__':
 
     query_name = input()
 
-    student_names = student_name.split()
-    for name in student_names:
-        if (name == query_name) and (name.index() == student_score.index()):
-            sum(student_score[name.index()]) / 3
-            
+    man = dict(zip(student_name, student_score))  
+    print(man)     
+
+    #student_names = student_name.split()
+    for key,value in iterstudent_name:
+            if (name == query_name) and (student_name.index(name) == student_score.index(student_name):
+                sum(student_score[name.index()]) / 3
+        
 
     print(student_name)
-    print(student_score)
+    print(student_score[0])
 
 
 
-
-   '''
-    
-
-    student_names = student_name.split()
-    for name in student_names:
-        if (name == query_name) and (name.index() == student_score.index()):
-            sum(student_score[name.index()]) / 3
-
-            student_names = student_name.split()
-    for name in student_names:
-        if (name == query_name) and (name.index() == student_score.index()):
-            sum(student_score[name.index()]) / 34
-
-            print(student_name)
-    print(student_score)
-
-    
-    if (query_name in student_name) and (student_score.index == student_name.index):
-        average = student_score.mean()
-    print(average)
-    if (query_name in student_name) and (student_score.index == student_name.index):
-        average = student_score.mean()
-    print(average)
-
-       if (query_name in student_name) and (student_score.index == student_name.index):
-        average = student_score.mean()
-    print(average)
-    
-    if (query_name in student_name) and (student_score.index == student_name.index):
-        average = student_score.mean()
-    print(average)
-    if (query_name in student_name) and (student_score.index == student_name.index):
-        average = student_score.mean()
-    print(average)
-     
-    
-    
-
-        name, *line = input().split()
-        scores = list(map(float, line))
-        student_marks[name] = scores
-
-    query_name = input()'''d
