@@ -9,27 +9,24 @@ if __name__ == '__main__':
     for _ in range(n):
         score_data = str(input()).split()
         student_name.append(score_data[0])
-        student_score.append(int(score_data[1:]))
+        student_score.append(score_data[1:])
 
     query_name = input()
     
-    '''score_int = []
-    for score in student_score:
-        score_int.appendint()'''
-
-    students = dict(zip(student_name, student_score))  
-    print(students)     
+    students = dict(zip(student_name, student_score))     
 
     #student_names = student_name.split()
     for name,score in students.items():
             if (name == query_name): 
-                average = sum(score) / 3
+                score_int = []
+                for actual_scores in score:
+                    score_int.append(int(actual_scores))
+                    average = sum(score_int) / 3
+                    average = "{:.2f}".format(average)
+    
     print(average)           
 
-        
-
-    print(student_name)
-    print(student_score[0])
+    
 
 
 
